@@ -1,0 +1,17 @@
+<h1 style = "padding:10px" >Stupid Coaching</h1>
+
+<div class="user_question">
+  <%= @input %>
+  <p>- you</p>
+</div>
+
+<div class="coach_answer">
+  <div style = "font-weight:bold">
+    <%= @coach_answer %>
+  </div>
+  <p>- your coach</p>
+</div>
+
+<div style = "padding:10px">
+  <%= link_to 'ask another question', ask_path  %>
+</div>
